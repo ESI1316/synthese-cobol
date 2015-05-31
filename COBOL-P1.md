@@ -413,21 +413,21 @@ TALLYING
 	
 + INSPECT CH1 TALLYING CPT FOR ALL ‘’*’’  
 	- Compte toutes les occurrences de *
-		* Ex : ‘’*ZL*BA**’’ donnera 4.
+		* Ex : `‘’*ZL*BA**’’` donnera 4.
 + INSPECT CH1 TALLYING CPT FOR LEADING ‘’*’’ –
 	- Compte les occurrences de * en tête de zone :
-		* Ex : ‘’**45ZZ**’’ donnera 2.
-		* Ex : ‘’4*58****’’ donnera 0.
-		* Ex : ‘’*1******’’ donnera 1.
+		* Ex : `‘’**45ZZ**’’` donnera 2.
+		* Ex : `‘’4*58****’’` donnera 0.
+		* Ex : `‘’*1******’’` donnera 1.
 + INSPECT CH1 TALLYING CPT FOR ALL ‘’XYZ’’ 
 	- Compte toute les occurrences de XYZ.
-		* Ex : ‘’ABCXYZXYO’’ donnera 1.
+		* Ex : `‘’ABCXYZXYO’’` donnera 1.
 + INSPECT CH1 TALLYING CPT FOR CHARACTERS BEFORE INITIAL SPACE
 	- Compte tous les caractères avant le premier espace.
-		* Ex : ‘’ABCD ABC’’ donnera 4.
+		* Ex : `‘’ABCD ABC’’` donnera 4.
 + INSPECT CH1 TALLYING CPT FOR ALL ‘’Z’’ AFTER INITIAL ‘’X’’ 
 	- Compte tous les Z après le premier X rencontré.
-		* Ex : ‘’AZZXPZLZ’’ donnera 2.
+		* Ex : `‘’AZZXPZLZ’’` donnera 2.
 
 	
 ### Option REPLACING
@@ -450,7 +450,7 @@ Format général :
 ```
 	
 + ID2 / LIT2 : Un seul caractère qui va remplacer tous les caractères de la zone visée.
-	- Ex : INSPECT CH1 REPLACING CHARACTERS BY SPACE AFTER INITIAL ‘’.’’
+	- Ex : `INSPECT CH1 REPLACING CHARACTERS BY SPACE AFTER INITIAL ‘’.’’`
 		* Remplace tous les caractères par des espaces après le premier point.
 + ID4 et ID5 doivent être de même longueurs.
 + **FIRST** : Remplace seulement la première occurrence.
